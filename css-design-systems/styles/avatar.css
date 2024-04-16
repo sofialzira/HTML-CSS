@@ -1,0 +1,18 @@
+
+.avatar img {
+    width: 100%;
+    border-radius: 10px;
+}
+.avatar--sm {
+    width: 32px;
+    border-radius: 4px;
+}
+
+.avatar--md {
+    width: 48px;
+}
+
+.avatar--lg {
+    width: 64px;
+}
+

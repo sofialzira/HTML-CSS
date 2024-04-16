@@ -1,0 +1,105 @@
+<!-- 
+	Documentation: 
+	https://www.figma.com/file/udWyes5Zfj14qQDmD6oUzL/Edit---Design-Systems?type=design&node-id=2%3A783&mode=dev&t=RszSJCDWvtv4ecS1-1
+ -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Design System</title>
+		<link rel="stylesheet" href="styles/globals.css" />
+		<link rel="stylesheet" href="styles/avatar.css"/>
+		<link rel="stylesheet" href="styles/button.css" />
+		<link rel="stylesheet" href="styles/input.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<h3 class="wrapper__title">Avatars</h3>
+			<div class="wrapper__content">
+				<div class="flex">
+					<!-- Conteúdo aqui -->
+					<div class="avatar avatar--sm">
+						<img src="./assets/user.jpeg"/>
+					  </div>
+					  <div class="avatar avatar--md">
+						<img src="./assets/user.jpeg"/>
+					  </div>
+					  <div class="avatar avatar--lg">
+						<img src="./assets/user.jpeg"/>
+					  </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper">
+			<h3 class="wrapper__title">Buttons</h3>
+			<div class="wrapper__content">
+				<div class="flex">
+					<!-- Conteúdo aqui -->
+					<button class="btn btn--default">
+						<span>Label</span>
+						<i data-feather="database"></i>
+					</button> 
+					<button class="btn btn--hover">
+						<span>Label</span>
+					</button> 
+					<button class="btn btn--press">
+						<span>Label</span>
+					</button> 
+					<button class="btn btn--disabled">
+						<span>Label</span>
+					</button> 
+					<button class="btn-white btn--default">
+						<span>Label</span>
+						<i data-feather="database"></i>
+					</button> 
+					<button class="btn-white btn--hover">
+						<span>Label</span>
+					</button> 
+					<button class="btn-white btn--press">
+						<span>Label</span>
+					</button> 
+					<button class="btn-white btn--disabled">
+						<span>Label</span>
+					</button> 
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper">
+			<h3 class="wrapper__title">Inputs</h3>
+			<div class="wrapper__content">
+				<div class="flex">
+					<!-- Conteúdo aqui -->
+					<form action="">
+						<div class="input-container">
+							<label for="Field_label">Field/Label</label> 
+							<div class="form-input">
+								<input class="input-field padding-regular" type="text" name="name" placeholder="placeholder">
+							</div>	
+						</div>
+						<div class="input-container">
+							<label for="Field_label">Field/Label</label> 
+							<div class="form-input">
+								<span class="icon icon-left"><i data-feather="search"></i></span>
+								<input class="input-field padding-with-icon" type="text" name="name" placeholder="placeholder">
+						  	</div>	
+						</div>
+						<div class="input-container">
+							<label for="Field_label">Field/Label</label> 
+							<div class="form-input">
+								<span class="icon icon-right"><i data-feather="search"></i></span>
+								<input class="input-field padding-regular" type="text" name="name" placeholder="placeholder">
+						  	</div>	
+						</div>
+						
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script>
+		feather.replace();
+	</script>
+</html>
