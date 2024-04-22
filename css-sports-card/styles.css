@@ -1,0 +1,125 @@
+body {
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px;
+    margin: 0;
+    background:
+      url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+      center / cover no-repeat fixed;
+  }
+
+
+.card {
+    background-color: white;
+    width: 270px;
+    height: 400px;
+    border-radius: 10px;
+
+    
+}
+
+.orange-box {
+    background-color: rgb(255, 134, 35);
+    width: 270px;
+    height: 300px;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    position: absolute;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+img {
+    display: flex;
+    width: 30px;
+    height: auto;
+}
+
+.price {
+    font-size: 12px;
+    color: white;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-left: 10px;
+}
+
+.description {
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+}
+
+.backdrop {
+    font-size: 170px;
+    font-weight: 600;
+    color: white;
+    opacity: 40%;
+    position: relative;
+    left: -14px;
+    bottom: 45px;
+    margin: 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.card-bottom {
+   position: relative;
+   top: 290px;
+   left: 10px
+}
+
+
+.btn {
+    outline: 1px solid blue;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    width: 100px;
+    margin: 10% 25%;
+    border: none;
+
+}
+
+.category {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: gray;
+    position: relative;
+    left: 37px;
+    bottom: 20px;
+}
+
+.shoe {
+    width: 500px;
+    height: auto;
+}
+
+.shoe-pic {
+    top: 45px;
+    z-index: 2;
+    width: 230px;
+    height: auto;
+    position: relative;
+    left: 65px;
+}

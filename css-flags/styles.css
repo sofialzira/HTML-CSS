@@ -180,7 +180,7 @@ body {
     z-index:10;
     background-color: blue;
     width: 40%;
-    height: 56%;
+    height: calc(100% / 9 * 5);
     top: 0;
     left: 0;
     z-index: 0;
