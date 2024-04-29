@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(35, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-text {
+    color: rgb(255, 213, 0);
+    text-align: center;
+    padding: 0 18vw;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.page-body {
+    padding: 5vw 10vw;
+}
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-left {
+    width: 350px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu-right {
+    color: rgb(255, 213, 0);
+}
+
+.cards {
+    width:900px;
+    padding-top: 40px;
+    display: flex;
+    margin: 0 auto;
+    gap: 16px
+}
+
+.card-element {
+    background-color: rgb(81, 80, 80);
+    border: 1px solid rgb(183, 182, 182);
+    border-radius: 8px;
+    width: 213px;
+    height: 313px;
+}
+
+.card-image {
+    width: 189px;
+    height: 130px;
+    border-radius: 8px;
+    margin: 12px 12px 0px 12px;
+
+}
+
+.text-section {
+    margin: 8px 12px;
+
+}
+
+.card-title {
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+
+.container-subtitle {
+    padding-top: 8px;
+    height: 77px;
+    width: 189px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+    color: white;
+    
+}
+
+.card-subtitle {
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
+
+.card-date {
+    color: #307BEC;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .menu {
+        width: 350px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .menu-right {
+        display: none;
+    }
+
+
+    .cards {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-element {
+        width: 379px;
+        height: 124px;
+        display: flex;
+    }
+
+    .card-image {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        margin: 10px 10px 10px 0px;
+
+    }
+
+    .container-title {
+        display: none;
+    }
+
+    .container-subtitle {
+        width: 240px;
+    }
+}
