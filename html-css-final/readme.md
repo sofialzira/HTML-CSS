@@ -3,7 +3,7 @@ O objectivo é resumir toda a matéria em contexto de html e css.
 A utilização do SASS fica ao teu critério, relembro só as vantagens do encapsulamento e da divisão das responsabilidades e na rapidez de propotipagem.
 
 Perde tempo em avaliar padrões, blocos invisíveis e definição de prioridades.
-Um bom projecto é definido pelo balanço entre planeamento e execução
+Um bom projecto é definido pelo balanço entre planeamento e execução.
 
 A fonte para ambos projectos é a Inter, está disponível no google fonts.
 
