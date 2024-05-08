@@ -42,7 +42,7 @@ li {
 }
 
 .link-element {
-    font-size: 14px;
+  font-size: 14px;
   text-decoration: none;
   color: black;
 }
@@ -56,40 +56,37 @@ li {
 }
 
 .sign-in-button {
-    width: 82px;
+  width: 82px;
   height: 33px;
-  border: none;
   background: none;
 }
 
 .btn {
-    height: 33px;
-    padding: 8px 16px 8px 16px;
+  height: 33px;
+  padding: 8px 16px 8px 16px;
+  border: none;
 }
 .black-button {
-    width: 108px; 
+  width: 108px;
   background-color: black;
   color: white;
 }
 
 .sign-up-button {
-    width: 82px;
-    background-color: black;
-    color: white;
-    
+  width: 82px;
+  background-color: black;
+  color: white;
 }
 
 .blue-button {
-    background-color: #0064DA;
-    color: white;
-    border: none;
+  background-color: #0064da;
+  color: white;
 }
 
-
 .horizontal-line {
-    height: 0;
-    width: 100vw;
-    border: 1px solid rgba(128, 128, 128, 0.589);
+  height: 0;
+  width: 100vw;
+  border: 1px solid rgba(128, 128, 128, 0.589);
 }
 
 .container-1 {
@@ -117,36 +114,42 @@ li {
   text-align: center;
 }
 
-
 .container-1-buttons {
-    display: inline-flex;
-    gap: 24px;
+  display: inline-flex;
+  gap: 24px;
 }
 
-
 .image-container {
-    padding-top: 20px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .image1 {
-    width: 408px;
-    height: auto;
-    border-radius: 4px;
+  width: 408px;
+  height: auto;
+  border-radius: 4px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .round-button {
-    width: 116px;
-    border-radius: 32px;
-    position: relative;
-    bottom: 20px;
-    
+  width: 116px;
+  border-radius: 32px;
+  position: relative;
+  bottom: 20px;
 }
 
 @media (min-width: 600px) {
   li {
     display: inline-flex;
+  }
+
+  .subtitle {
+    font-size: 24px;
   }
 }
