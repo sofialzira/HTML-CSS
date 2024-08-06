@@ -383,6 +383,110 @@ li {
 
 
 
+
+/* Footer Section */
+footer {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.cta-section {
+  background-color: #007bff;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e6e6e6;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.subscribe-form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.subscribe-form input[type="email"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 1em;
+}
+
+.subscribe-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: #333;
+}
+
+.footer-branding {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+
+
 @media (min-width: 600px) {
   li {
     display: inline-flex;
