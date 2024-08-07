@@ -387,7 +387,7 @@ li {
 /* Footer Section */
 footer {
   background-color: #fff;
-  padding: 20px 0;
+  padding: 46px 0;
 }
 
 .cta-section {
@@ -398,12 +398,16 @@ footer {
 }
 
 .cta-content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cta-content h2 {
-  font-size: 1.5em;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
@@ -411,9 +415,9 @@ footer {
   background-color: white;
   color: #007bff;
   border: none;
-  border-radius: 5px;
+  height: 33px;
   padding: 10px 20px;
-  font-size: 1em;
+  font-size: 14px;
   cursor: pointer;
 }
 
@@ -435,17 +439,24 @@ footer {
 
 .footer-column h3 {
   font-size: 1.2em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer-column ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: inline-grid;
 }
 
-.footer-column ul li {
+.footer-column ul {
   margin-bottom: 5px;
+}
+
+li {
+  list-style: none;
+  display: none;
+  padding: 4px;
 }
 
 .subscribe-form {
@@ -457,7 +468,6 @@ footer {
   flex: 1;
   padding: 5px;
   border: 1px solid #ccc;
-  border-radius: 5px 0 0 5px;
   font-size: 1em;
 }
 
@@ -466,7 +476,6 @@ footer {
   color: white;
   border: none;
   padding: 5px 20px;
-  border-radius: 0 5px 5px 0;
   cursor: pointer;
 }
 
@@ -480,7 +489,7 @@ footer {
 }
 
 .footer-logo {
-  height: 40px;
+  height: 50px;
   margin-right: 10px;
 }
 
